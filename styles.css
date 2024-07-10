@@ -1,42 +1,38 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    text-align: center;
     background-color: #f0f0f0;
+    color: #333;
 }
 
 header {
-    text-align: center;
-    padding: 2rem 0;
-    background-color: #0033cc;
+    background-color: #005cbf;
+    padding: 20px;
     color: white;
 }
 
-header img {
-    max-width: 100px;
-}
-
-main {
-    padding: 2rem;
-    text-align: center;
+.logo {
+    width: 100px;
+    height: auto;
 }
 
 section {
-    margin-bottom: 2rem;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
 }
 
 footer {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: #0033cc;
+    background-color: #005cbf;
     color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
-footer a {
+a {
     color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
     text-decoration: underline;
 }
